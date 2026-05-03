@@ -1,0 +1,9 @@
+telethon==1.36.0
+python-telegram-bot==21.0
+apscheduler==3.10.4
+argostranslate==1.9.6
+aiohttp==3.9.3
+Pillow==10.2.0
+feedparser==6.0.10
+requests==2.31.0
+python-dotenv==1.0.1

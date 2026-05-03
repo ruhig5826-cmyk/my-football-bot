@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+data/bot.db
+telegram.session
+session.*
+.env
+.DS_Store

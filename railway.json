@@ -1,0 +1,16 @@
+{
+  "build": {
+    "builder": "Dockerfile"
+  },
+  "deploy": {
+    "startCommand": "python main.py"
+  },
+  "env": [
+    "BOT_TOKEN",
+    "API_ID",
+    "API_HASH",
+    "CHANNEL_ID",
+    "UNSPLASH_KEY",
+    "FOOTBALL_API_KEY"
+  ]
+}
