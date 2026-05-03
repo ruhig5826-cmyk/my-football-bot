@@ -30,6 +30,6 @@ async def handle_new_message(event):
     await enqueue_post(translated, image_path, source=event.chat.username or str(event.chat_id))
 
 async def start_listener():
-    await client.start()
+    await client.start(bot_token=config.BOT_TOKEN)
     print("✅ Telegram listener started")
     await client.run_until_disconnected()
